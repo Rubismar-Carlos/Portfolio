@@ -1,0 +1,23 @@
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.849);
+    align-items: center;
+    color: white;
+    border-top: 3px solid blueviolet;
+}
+
+.box-svgs {
+    display: flex;
+    gap: 20px;
+}
+
+footer svg {
+    font-size: 2em;
+    color: white;
+}
+
+footer svg:hover {
+    color: blueviolet;
+}

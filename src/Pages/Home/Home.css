@@ -1,0 +1,230 @@
+.about-rubismar-carlos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: blueviolet;
+}
+
+.img-about {
+    display: flex;
+    justify-content: right;
+    height: 380px;
+    width: 380px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: blueviolet;
+    padding-top: 20px;
+    border: 3px solid gray;
+}
+
+.img-about img {
+    border-radius: 50%;
+}
+
+/* Box dos botoes */
+
+.btn-about h1 {
+    font-size: 3em;
+}
+
+.btn-box-btn {
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+}
+
+.color-text-about {
+    color: gray;
+    font-size: 1.8em;
+}
+
+.about-txt {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 1em;
+    background-color: rgb(137, 43, 226);
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    background-color: transparent;
+    transition: 1s;
+}
+
+/* Box sobre mim */
+
+.about-txt {
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: blueviolet;
+}
+
+.about-txt-p {
+    margin: 10px auto;
+    font-size: 1.1em;
+    text-align: justify;
+    color: gray;
+}
+
+@media (max-width: 938px) {
+    .about {
+        padding-top: 10px;
+    }
+
+    .about-rubismar-carlos {
+        gap: 50px;
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+
+    /* box sobre mim */
+    
+    .about-txt-p {
+        width: 100%;
+    }
+
+    .projetos {
+        padding-top: 80px;
+    }
+
+    .certificados {
+        padding-top: 100px;
+    }
+
+    .contato {
+        padding-top: 100px;
+    }
+
+}
+
+@media (min-width: 940px) {
+    .about-txt {
+        padding-top: 70px;
+    }
+
+    .about {
+        padding-bottom: 160px;
+    }
+
+    .about-rubismar-carlos {
+        gap: 220px;
+        padding-top: 150px;
+        margin-bottom: 30px;
+    }
+
+    .about {
+        height: 80vh;
+    }
+
+    .btn-about {
+        padding-top: 100px;
+    }
+
+    /* box sobre mim */
+    
+    .about-txt-p {
+        width: 800px;
+    }
+
+    /* Habilidades */
+    .skill {
+        padding-top: 10px;
+    }
+
+    /* Projetos */
+    .projetos {
+        padding-top: 60px;
+    }
+
+    /* Certificados */
+    .certificados {
+        padding-top: 80px;
+    }
+
+    /* Contato */
+    .contato {
+        padding-top: 20px;
+    }
+}
+
+/* HABILIDADES */
+
+.skill {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.849);
+    margin-top: 30px;
+    padding-bottom: 60px;
+    color: white;
+}
+
+.skill h2 {
+    padding-top: 100px;
+    padding-bottom: 30px;
+    color: blueviolet;
+}
+
+.container-skill {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+/* PROJETOS */ 
+.projetos {
+    background-color: rgba(0, 0, 0, 0.849);
+    padding-bottom: 60px;
+}
+
+.projetos h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.nome-projeto {
+    margin-bottom: 60px;
+    color: blueviolet;
+}
+
+.container-projetos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+/* CERTIFICADOS */
+.certificados {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.container-certificados {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+/* CONTATO */
+.contato {
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
