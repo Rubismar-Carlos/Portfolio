@@ -125,7 +125,6 @@
 
     .about-txt {
         padding-top: 70px;
-        font-size: 1.1em;
     }
 
     .about {
@@ -150,6 +149,7 @@
     
     .about-txt-p {
         width: 800px;
+        font-size: 1.2em;
     }
 
     /* Habilidades */
