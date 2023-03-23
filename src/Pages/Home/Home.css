@@ -8,8 +8,6 @@
 .img-about {
     display: flex;
     justify-content: right;
-    height: 380px;
-    width: 380px;
     border-radius: 50%;
     cursor: pointer;
     background-color: blueviolet;
@@ -72,12 +70,15 @@
 
 .about-txt-p {
     margin: 10px auto;
-    font-size: 1.1em;
-    text-align: justify;
     color: gray;
 }
 
 @media (max-width: 938px) {
+    .img-about {
+        width: 250px;
+        height: 250px;
+    }
+
     .about {
         padding-top: 10px;
     }
@@ -86,6 +87,14 @@
         gap: 50px;
         margin-top: 100px;
         margin-bottom: 30px;
+    }
+
+    .about-txt-p {
+        width: 100%;
+        text-align: justify;
+        font-size: 0.9em;
+        text-indent: 20px;
+        line-height: 25px;
     }
 
     /* box sobre mim */
@@ -109,8 +118,14 @@
 }
 
 @media (min-width: 940px) {
+    .img-about {
+        height: 380px;
+        width: 380px;
+    }
+
     .about-txt {
         padding-top: 70px;
+        font-size: 1.1em;
     }
 
     .about {
