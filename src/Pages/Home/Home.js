@@ -26,7 +26,7 @@ const Home = () => {
     const imgProjetoQuizz = 'https://fv9-5.failiem.lv/thumb_show.php?i=m9famvyx4&view'
     const imgProjetoJogodaVelha = 'https://fv9-5.failiem.lv/thumb_show.php?i=9q7mx8r85&view'
     const imgProjetoSanduicheriaRonnys = "https://fv9-6.failiem.lv/thumb_show.php?i=c4gfwft9y&view"
-    const imgProjetoRonnysReact = "https://fv9-3.failiem.lv/thumb_show.php?i=4q7rjbgrj&view"
+    const imgProjetoRonnys2 = "https://fv5-2.failiem.lv/thumb_show.php?i=abve9vhms&view"
     const imgProjetoMoviesLib = "https://fv9-4.failiem.lv/thumb_show.php?i=uk74eb8nj&view"
     const imgProjetoMiniBlogReact = "https://fv9-6.failiem.lv/thumb_show.php?i=qu2jwbfdn&view"
     const imgProjetoCrud = 'https://fv9-6.failiem.lv/thumb_show.php?i=fyd7bejx2&view'
@@ -106,12 +106,20 @@ const Home = () => {
                     linkProjeto={"https://movies-lib-eight-kappa.vercel.app"}
                 />
                 < Projetos 
+                    nameProjeto={"Ronnys 2.0"} 
+                    imgProjeto={ imgProjetoRonnys2 }
+                    descricaoProjeto={ <p>Sanduicheria Ronnys 2.0 é agora o site atual no google, consiste no mesmo codigo, atualizado com um novo layout, imagens e uma nova fonte de texto atualizada.</p>}
+                    linkLikedin={""}
+                    linkGithub={"https://github.com/Rubismar-Carlos/Sanduicheira-Ronnys-2.0"}
+                    linkProjeto={'https://www.sanduicheriaronnys.com.br'}
+                />
+                < Projetos 
                     nameProjeto={"Sanduicheria Ronnys"} 
                     imgProjeto={ imgProjetoSanduicheriaRonnys }
                     descricaoProjeto={ <p>Site criado com html, css e javascript, uma rede de sanduíches com todo o seu cardápio disponível e suas lojas abertas em toda região.</p>}
                     linkLikedin={""}
                     linkGithub={"https://github.com/Rubismar-Carlos/Sanduicheria-Ronnys"}
-                    linkProjeto={'https://www.sanduicheriaronnys.com.br'}
+                    linkProjeto={'https://rubismar-carlos.github.io/Sanduicheria-Ronnys/'}
                 />
                 < Projetos 
                     nameProjeto={"Inox Portugal"} 
@@ -144,14 +152,6 @@ const Home = () => {
                     linkLikedin={"https://www.linkedin.com/posts/rubismar-carlos-09a912246_hoje-venho-apresentar-mais-um-projeto-activity-7043944818154049536-30fZ?utm_source=share&utm_medium=member_desktop"}
                     linkGithub={"https://github.com/Rubismar-Carlos/To-do-list"}
                     linkProjeto={"https://to-do-list-ic0z2aa4d-rubismar-carlos.vercel.app"}
-                />
-                < Projetos 
-                    nameProjeto={"Ronnys 2.0"} 
-                    imgProjeto={ imgProjetoRonnysReact }
-                    descricaoProjeto={ <p>Mesmo site da sanduícheria ronnys so que feito em react com melhorias de imagens e cardápio.</p>}
-                    linkLikedin={""}
-                    linkGithub={"https://github.com/Rubismar-Carlos/Ronnys-React"}
-                    linkProjeto={'https://ronnys-react-bv1lojfen-rubismar-carlos.vercel.app'}
                 />
                 < Projetos 
                     nameProjeto={"MiniBlog"} 
