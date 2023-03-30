@@ -109,7 +109,7 @@ const Home = () => {
                     nameProjeto={"Ronnys 2.0"} 
                     imgProjeto={ imgProjetoRonnys2 }
                     descricaoProjeto={ <p>Sanduicheria Ronnys 2.0 é agora o site atual no google, consiste no mesmo codigo, atualizado com um novo layout, imagens e uma nova fonte de texto atualizada.</p>}
-                    linkLikedin={""}
+                    linkLikedin={"https://www.linkedin.com/posts/rubismar-carlos-09a912246_esse-projeto-n%C3%A3o-%C3%A9-novo-mas-sim-uma-atualiza%C3%A7%C3%A3o-activity-7047253308012445696-uYm4?utm_source=share&utm_medium=member_desktop"}
                     linkGithub={"https://github.com/Rubismar-Carlos/Sanduicheira-Ronnys-2.0"}
                     linkProjeto={'https://www.sanduicheriaronnys.com.br'}
                 />
