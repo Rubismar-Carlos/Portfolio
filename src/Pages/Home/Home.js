@@ -51,7 +51,7 @@ const Home = () => {
                     <p className='color-text-about'>Desenvolvedor Front-End</p>
                     <div className='btn-box-btn'>
                         <div>
-                            <Link to={"https://drive.google.com/file/d/1Bl2RmaBfVnRUY7hRcmBMG7Dnwp9SDQ4Y/view?usp=sharing"} target={'_blank'}>
+                            <Link to={"https://drive.google.com/file/d/1t02qq8ncs0TYv6MYXgte5LYoHRWWmo4s/view?usp=share_link"} target={'_blank'}>
                                 <button className="btn">Download do CV</button>
                             </Link>
                         </div>
