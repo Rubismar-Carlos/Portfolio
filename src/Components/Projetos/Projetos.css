@@ -139,6 +139,11 @@
         background-color: transparent;
     }
 
+    /* Container btn mais projetos para mobile  */
+    .container-btn {
+        height: 120px;
+    }
+
 }
 
 @media (min-width: 1005px) {

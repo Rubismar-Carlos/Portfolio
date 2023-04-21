@@ -191,7 +191,7 @@
 /* PROJETOS */ 
 .projetos {
     background-color: rgba(0, 0, 0, 0.849);
-    padding-bottom: 180px;
+    padding-bottom: 130px;
 }
 
 .projetos h2 {
@@ -207,30 +207,6 @@
 .container-projetos {
     margin-left: 20px;
     margin-right: 20px;
-}
-
-
-/* Parte onde tem o botão que resgata os dados de mais projetos */
-.projetos-hide {
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-
-.inactive {
-    opacity: 0;
-    position: absolute;
-    transition: 1s;
-    display: none;
-}
-
-.active {
-    opacity: 1;
-    display: flex;
-}
-
-.btn-mais-projetos {
-    text-align: center;
 }
 
 /* CERTIFICADOS */
