@@ -67,13 +67,13 @@
 @media (max-width: 1000px) {
 
     .box-projeto {
-        width: 350px;
-        height: 350px;
+        width: 300px;
+        height: 300px;
     }
 
     .img-projeto img {
-        width: 350px;
-        height: 350px;
+        width: 300px;
+        height: 300px;
     }
 
     .box-modal {
@@ -113,6 +113,30 @@
 
     .img-modal-projeto {
         display: none;
+    }
+
+    /* container projetos finalizados para mobile onde ira virar scroll */
+    .container-projetosfinalizados {
+        display: flex;
+        overflow-x: auto;
+        gap: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    /* Barra horizontal do navegador */
+    ::-webkit-scrollbar {
+        height: 3px;
+        width: 1px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: blueviolet;
+        border-radius: 5px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: transparent;
     }
 
 }
@@ -175,6 +199,36 @@
         margin: 10px auto;
     }
 
+    /* Container projetos finalizados desktop */
+    .container-projetosfinalizados {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-bottom: 30px;
+    }
+}
+
+/* Btn de ver mais projetos */
+.container-btn{ 
+    text-align: center;
+}
+
+.btn-mais-projetos {
+    padding: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    font-size: 1em;
+}
+
+.btn-mais-projetos:hover {
+    background-color: transparent;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    transition: 1s;
 }
 
 /* IMAGEM ENCIMA DO BOX PROJETOS */
@@ -204,4 +258,5 @@
 
 .aprensentacao-projeto h3 {
     margin-top: 30px;
+    text-align: center;
 }

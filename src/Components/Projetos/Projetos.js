@@ -30,7 +30,7 @@ const Projetos = ({nameProjeto, imgProjeto, descricaoProjeto, linkLikedin, linkG
                 <div className="box-apresentacao">
                     <h2>{nameProjeto}</h2>
                     <div className="aprensentacao-projeto">
-                        <h3>Clique para ver mais</h3>
+                        <h3>Clique para <br/> ver mais</h3>
                     </div>
                 </div>
             </div>
