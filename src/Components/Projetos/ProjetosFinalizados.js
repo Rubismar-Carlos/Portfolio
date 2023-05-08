@@ -9,7 +9,16 @@ const ProjetosFinalizados = () => {
 
     const [projetos, setProjetos] = useState([
         {
-            id: 1,
+            id: 13,
+            imgProjeto: "https://fv5-2.failiem.lv/thumb_show.php?i=ceumxt3pj&view",
+            nameProjeto: "Slipknot",
+            descricaoProjeto: "Site com explicações sobre a banda, músicas, artistas e ex-artistas, utilizando o framework react.js, e bibliotecas como react-router-dom e react-icons.",
+            linkLikedin: "https://www.linkedin.com/feed/update/urn:li:activity:7061388578941001728/",
+            linkGithub: "https://github.com/Rubismar-Carlos/Slipknot",
+            linkProjeto: "https://slipknot.vercel.app"
+        },
+        {
+            id: 12,
             imgProjeto: "https://fv9-5.failiem.lv/thumb_show.php?i=4ythqqa42&view",
             nameProjeto: "Brunno Fotografo",
             descricaoProjeto: "Bruno Carvalho é um fotógrafo profissional. O site mostra todo o seu trabalho e como funciona, passo a passo, com todos os seus pacotes e valores de seus books.",
@@ -18,7 +27,7 @@ const ProjetosFinalizados = () => {
             linkProjeto: "https://brunno-fotografo.vercel.app"
         },
         {
-            id: 2,
+            id: 11,
             imgProjeto: "https://fv9-4.failiem.lv/thumb_show.php?i=uk74eb8nj&view",
             nameProjeto: "Movies Lib",
             descricaoProjeto: "Consumindo a API TMDB, site que mostra os melhores filmes atualmente, valores gastos nas produções, lucros e uma descrição do filme.",
@@ -28,7 +37,7 @@ const ProjetosFinalizados = () => {
 
         },
         {
-            id: 3,
+            id: 10,
             imgProjeto: "https://fv9-6.failiem.lv/thumb_show.php?i=c4gfwft9y&view",
             nameProjeto: "Sanduicheria Ronnys",
             descricaoProjeto: "Site criado com html, css e javascript, uma rede de sanduícherias com todo o seu cardápio disponivel e suas lojas abertas em toda a região.",
@@ -37,7 +46,7 @@ const ProjetosFinalizados = () => {
             linkProjeto: 'https://www.sanduicheriaronnys.com.br'
         },
         {
-            id: 4,
+            id: 9,
             imgProjeto: "https://fv5-2.failiem.lv/thumb_show.php?i=ha3rgjbts&view",
             nameProjeto: "Spotify - Clone",
             descricaoProjeto: "Clone do front end da plataforma de streaming de música spotify",
@@ -46,7 +55,7 @@ const ProjetosFinalizados = () => {
             linkProjeto: "https://spotify-clone-self-three.vercel.app"
         },
         {
-            id: 5,
+            id: 8,
             imgProjeto: "https://fv9-1.failiem.lv/thumb_show.php?i=ykrskkkwj&view",
             nameProjeto: "Inox Portugal",
             descricaoProjeto: "Site criado com html, css e javascrip, empresa de fabricação de corrimão e peças sob medidas de aço-inoxidável.",
@@ -55,7 +64,7 @@ const ProjetosFinalizados = () => {
             linkProjeto: "https://www.inoxportugal.com.br"
         },
         {
-            id: 6,
+            id: 7,
             imgProjeto: "https://fv9-6.failiem.lv/thumb_show.php?i=fyd7bejx2&view",
             nameProjeto: "Sistema de cadastro e login",
             descricaoProjeto: "Como em todos os sites, é necessário realizar o cadastro e, em seguida, o login. Desenvolvido em React com banco de dados MongoDB.",
@@ -64,7 +73,7 @@ const ProjetosFinalizados = () => {
             linkProjeto: ""
         },
         {
-            id: 7,
+            id: 6,
             imgProjeto: "https://fv9-3.failiem.lv/thumb_show.php?i=84yn8w6eb&view",
             nameProjeto: "ForSale",
             descricaoProjeto: "Site com objetivo de divulgação de vendas de carro, com um formulário onde a pessoa coloca os dados do seu carro e quando enviado, vai direto para o banco de dados utilizando o JSON Server.",
@@ -72,7 +81,7 @@ const ProjetosFinalizados = () => {
             linkGithub: "https://github.com/Rubismar-Carlos/For-Sale"
         },
         {
-            id: 8,
+            id: 5,
             imgProjeto: "https://fv9-7.failiem.lv/thumb_show.php?i=ys9jzny7h&view" ,
             nameProjeto: "Todo List",
             descricaoProjeto: "Adicione lembrentes do dia a dia, edite ou os exclua.",
@@ -81,7 +90,7 @@ const ProjetosFinalizados = () => {
             linkProjeto: "https://to-do-list-ic0z2aa4d-rubismar-carlos.vercel.app"
         },
         {
-            id: 9,
+            id: 4,
             imgProjeto: "https://fv5-2.failiem.lv/thumb_show.php?i=abve9vhms&view",
             nameProjeto: "Sanduícheria Ronnys 2.0",
             descricaoProjeto: "Sanduicheria Ronnys 2.0, consiste no mesmo codigo, atualizado com um novo layout, imagens e uma nova fonte de texto atualizada.",
@@ -90,7 +99,7 @@ const ProjetosFinalizados = () => {
             linkProjeto: "https://rubismar-carlos.github.io/Sanduicheira-Ronnys-2.0/"
         },
         {
-            id: 10,
+            id: 3,
             imgProjeto: "https://fv9-6.failiem.lv/thumb_show.php?i=qu2jwbfdn&view",
             nameProjeto: "MiniBlog",
             descricaoProjeto: "Crie sua conta, poste e curta fotos de seus amigos, usando o firebase do google como banco de dados e autenticação de login.",
@@ -99,7 +108,7 @@ const ProjetosFinalizados = () => {
             linkProjeto: ""
         },
         {
-            id: 11,
+            id: 2,
             imgProjeto: "https://fv9-5.failiem.lv/thumb_show.php?i=m9famvyx4&view",
             nameProjeto: "Quizz de progamação",
             descricaoProjeto: "Um jogo quizz com perguntas relacionadas a progamação.",
@@ -107,7 +116,7 @@ const ProjetosFinalizados = () => {
             linkProjeto: "https://rubismar-carlos.github.io/Quizz/"
         },
         {
-            id: 12,
+            id: 1,
             imgProjeto: "https://fv9-5.failiem.lv/thumb_show.php?i=9q7mx8r85&view",
             nameProjeto: "Jogo da Velha",
             descricaoProjeto: "Escolha jogar contra outro jogador ou contra a maquina.",
@@ -116,7 +125,7 @@ const ProjetosFinalizados = () => {
         },
     ])
 
-    const [counterProjetos, setCounterProjetos] = useState(3)
+    const [counterProjetos, setCounterProjetos] = useState(6)
 
     const [btnVisivel, setBtnVisivel] = useState(true)
 
