@@ -9,6 +9,15 @@ const ProjetosFinalizados = () => {
 
     const [projetos, setProjetos] = useState([
         {
+            id: 14,
+            imgProjeto: "https://fv5-3.failiem.lv/thumb_show.php?i=en89p2rq4&view&v=1",
+            nameProjeto: "Desapego",
+            descricaoProjeto: "Forneça os seus dados de contato e publique seu produto, projeto desapego foi realizado utilizando o framework Next.js conectado com o banco de dados MongoDB.",
+            linkLikedin: "https://www.linkedin.com/posts/rubismar-carlos-09a912246_react-reactjs-nextjs-activity-7068971237472878593-l7Nw?utm_source=share&utm_medium=member_desktop",
+            linkGithub: "https://github.com/Rubismar-Carlos/Projeto_Desapego",
+            linkProjeto: "https://projeto-nextjs-lake.vercel.app"
+        },
+        {
             id: 13,
             imgProjeto: "https://fv5-2.failiem.lv/thumb_show.php?i=ceumxt3pj&view",
             nameProjeto: "Slipknot",
