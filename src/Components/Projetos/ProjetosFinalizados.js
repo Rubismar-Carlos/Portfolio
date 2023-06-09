@@ -9,6 +9,15 @@ const ProjetosFinalizados = () => {
 
     const [projetos, setProjetos] = useState([
         {
+            id: 15,
+            imgProjeto: "https://fv5-3.failiem.lv/thumb_show.php?i=79e3nubgk&view&v=1",
+            nameProjeto: "Pokémon Card",
+            descricaoProjeto: "Procure por seu Pokémon favorito, projeto realizado com o next.js utilizando a API que recebe dados como: nome, imagem, habilidades e poderes de cada pokémon",
+            linkLikedin: "https://www.linkedin.com/posts/rubismar-carlos-09a912246_nextjs-react-reactjs-activity-7072727891704258560-bXVj?utm_source=share&utm_medium=member_desktop",
+            linkGithub: "https://github.com/Rubismar-Carlos/pokemon_card",
+            linkProjeto: "https://pokemon-card-gilt.vercel.app"
+        },
+        {
             id: 14,
             imgProjeto: "https://fv5-3.failiem.lv/thumb_show.php?i=en89p2rq4&view&v=1",
             nameProjeto: "Desapego",
