@@ -9,6 +9,15 @@ const ProjetosFinalizados = () => {
 
     const [projetos, setProjetos] = useState([
         {
+            id: 16,
+            imgProjeto: "https://fv5-3.failiem.lv/thumb_show.php?i=9ggh4687j&view&v=1",
+            nameProjeto: "Pìgz Front-end",
+            descricaoProjeto: "Projeto front-end utilizando o detalhes no figma",
+            linkLikedin: "https://www.linkedin.com/feed/update/urn:li:activity:7076574792996257792/",
+            linkGithub: "https://github.com/Rubismar-Carlos/pigz_frontend",
+            linkProjeto: "https://pigz-frontend-phi.vercel.app"
+        },
+        {
             id: 15,
             imgProjeto: "https://fv5-3.failiem.lv/thumb_show.php?i=79e3nubgk&view&v=1",
             nameProjeto: "Pokémon Card",
